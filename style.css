@@ -1,0 +1,1004 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*----------------------------------------------MENU BAR---------------------------------------------------------*/
+.menu
+{
+background: rgba(254, 254, 254, 0.9);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+height: 100px;
+text-align: center;
+}
+.menu img
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.menu ul
+{
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+.menu ul li
+{
+    display: inline;
+    
+    padding: 10px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*---------------------------------------------SEARCH BOX STYLE CODE---------------------------------------------------------*/
+.searchBox
+{
+    float: right;
+    border-radius: 50px;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    margin-right: 50px;
+    padding: 2px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.searchTxt
+{
+    width: 90px;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+    border: none;
+}
+.searchBtn
+{
+    float: right;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    border-radius: 50px;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+.div2
+{
+    
+    
+    background-image: url(DSC_7082.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div2b
+{
+    background: linear-gradient(208.59deg, rgba(232, 65, 65, 0.8) 4.28%, rgba(160, 2, 235, 0.45) 121.2%);
+    width: 1440px;
+    height: 669px;
+}
+.div2b p
+{
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+width: 399px;
+height: 173px;
+position: absolute;
+margin-left: 200px;
+margin-top: 100px;
+}
+.div2b .p2
+{
+position: absolute;
+width: 386px;
+height: 64px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+margin-left: 200px;
+margin-top: 300px;
+line-height: 21px;
+}
+.btn1, .btn2
+{
+margin-left: 200px;
+margin-top: 400px;
+height: 35px;
+width: 100px;
+border-radius: 50px;
+background: initial;
+color: white;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+}
+.btn1 a, .btn2 a
+{
+    text-decoration: none;
+  
+}
+
+.btn2
+{
+    margin-left: 30px;
+}
+.btn1, .btn2:hover
+{
+    background-color: white;
+    color: #490F83;
+}
+/*_________________________________________________________PRICE DIV/LIST_______________________________________________________________*/
+.price
+{
+width: 1440px;
+height: 224px;
+left: 0px;
+top: 667px;
+
+background: #F6F6F6;
+border: 1px solid #F2F2F2;
+box-sizing: border-box;
+text-align: center;
+margin-left: 50px;
+
+
+}
+.price .v1
+{
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.price .v2
+{
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.price .v3
+{
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.price p
+{
+    font-size: 48px;
+}
+.price label
+{
+    font-size: 18px;
+}
+/*-------------------------------------------------------TABLE 1------------------------------------------------------*/
+.tb1
+{
+    margin-left: 50px;
+}
+.tb1 li
+{
+    display: inline;
+    list-style: none;
+    margin-left: 80px;
+    
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #4F4F4F;
+}
+.tb1 li a
+{
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+.pic1
+{
+    width: 305px;
+    height: 472px;
+    float: left;
+    background: #FFFFFF;
+    border: 1px solid rgba(79, 79, 79, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 130px;
+    margin-top: 35px;
+    text-align: center;
+    padding: 25px;
+}
+.pic1 .name
+{
+    
+    margin-top: 10px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.pic1 .description
+{
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    color: #828282;
+    margin-top: 10px;
+}
+.pic1 .list
+{
+    text-align: left;
+}
+.pic1 .list ul
+{
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+.pic1 .list ul div
+{
+    display: inline-flex;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+.pic1 .list ul li
+{
+    padding-left: 7px;
+}
+.pic1 .list ul .fa
+{
+    color: #490F83;
+}
+.pic1 button
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #490F83;
+    width: 141px;
+    height: 30px;
+    border: 2px solid #490F83;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.pic2
+{
+    width: 305px;
+    height: 472px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(79, 79, 79, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 130px;
+    margin-top: 35px;
+    text-align: center;
+    padding: 25px;
+    float: left;
+}
+.pic2 .name
+{
+    
+    margin-top: 10px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.pic2 .description
+{
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    color: #828282;
+    margin-top: 10px;
+}
+.pic2 .list
+{
+    text-align: left;
+}
+.pic2 .list ul
+{
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+.pic2 .list ul div
+{
+    display: inline-flex;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+.pic2 .list ul li
+{
+    padding-left: 7px;
+}
+.pic2 .list ul .fa
+{
+    color: #490F83;
+}
+.pic2 button
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #490F83;
+    width: 141px;
+    height: 30px;
+    border: 2px solid #490F83;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.pic3
+{
+    width: 305px;
+    height: 472px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(79, 79, 79, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 130px;
+    margin-top: 35px;
+    text-align: center;
+    padding: 25px;
+    float: left;
+}
+.pic3 .name
+{
+    
+    margin-top: 10px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.pic3 .description
+{
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    color: #828282;
+    margin-top: 10px;
+}
+.pic3 .list
+{
+    text-align: left;
+}
+.pic3 .list ul
+{
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+.pic3 .list ul div
+{
+    display: inline-flex;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+.pic3 .list ul li
+{
+    padding-left: 7px;
+}
+.pic3 .list ul .fa
+{
+    color: #490F83;
+}
+.pic3 button
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #490F83;
+    width: 141px;
+    height: 30px;
+    border: 2px solid #490F83;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.pic4
+{
+    width: 305px;
+    height: 472px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(79, 79, 79, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 130px;
+    margin-top: 35px;
+    text-align: center;
+    padding: 25px;
+    float: left;
+}
+.pic4 .name
+{
+    
+    margin-top: 10px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.pic4 .description
+{
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    color: #828282;
+    margin-top: 10px;
+}
+.pic4 .list
+{
+    text-align: left;
+}
+.pic4 .list ul
+{
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+.pic4 .list ul div
+{
+    display: inline-flex;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+.pic4 .list ul li
+{
+    padding-left: 7px;
+}
+.pic4 .list ul .fa
+{
+    color: #490F83;
+}
+.pic4 button
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #490F83;
+    width: 141px;
+    height: 30px;
+    border: 2px solid #490F83;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.pic5
+{
+    width: 305px;
+    height: 472px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(79, 79, 79, 0.4);
+    box-sizing: border-box;
+    box-shadow: -25px -25px 50px rgba(0, 0, 0, 0.25);
+    margin-left: 130px;
+    margin-top: 35px;
+    text-align: center;
+    padding: 25px;
+    float: left;
+}
+.pic5 .name
+{
+    
+    margin-top: 10px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.pic5 .description
+{
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    color: #828282;
+    margin-top: 10px;
+}
+.pic5 .list
+{
+    text-align: left;
+}
+.pic5 .list ul
+{
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+.pic5 .list ul div
+{
+    display: inline-flex;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+.pic5 .list ul li
+{
+    padding-left: 7px;
+}
+.pic5 .list ul .fa
+{
+    color: #490F83;
+}
+.pic5 button
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #490F83;
+    width: 141px;
+    height: 30px;
+    border: 2px solid #490F83;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.pic6
+{
+    width: 305px;
+    height: 472px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(79, 79, 79, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 130px;
+    margin-top: 35px;
+    text-align: center;
+    padding: 25px;
+    float: left;
+}
+.pic6 .name
+{
+    
+    margin-top: 10px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.pic6 .description
+{
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    color: #828282;
+    margin-top: 10px;
+}
+.pic6 .list
+{
+    text-align: left;
+}
+.pic6 .list ul
+{
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+.pic6 .list ul div
+{
+    display: inline-flex;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+.pic6 .list ul li
+{
+    padding-left: 7px;
+}
+.pic6 .list ul .fa
+{
+    color: #490F83;
+}
+.pic6 button
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #490F83;
+    width: 141px;
+    height: 30px;
+    border: 2px solid #490F83;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+.view
+{
+    margin-top: 980px;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 1150px;
+    border: 3px solid #490F83;
+    border-style: ;
+    
+}
+.view button
+{
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: inherit;
+    width: 135px;
+    height: 35px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #490F83;
+}
+.view .fa
+{
+    margin-left: 10px;
+}
+.view a
+{
+    text-decoration: none;
+}
+
+
+.work
+{
+    width: 1440px;
+    height: 679px;
+    background: #E0E0E0;
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.work .p1
+{
+    margin-top: 30px;
+    
+font-family: Rambla;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 42px;
+color: #4F4F4F;
+}
+.work .p2
+{
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.circle1
+{
+    background-color: white;
+    border-radius: 50%;
+    width: 218px;
+    height: 208px;
+    margin-top: 80px;
+    margin-left: 130px;
+    
+}
+.work .ftn1
+{
+
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    width: 185px;
+    height: 23px;
+    margin-left: 140px;
+    margin-top: 50px;
+
+}
+.work .des
+{
+    width: 186px;
+    height: 59px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4F4F4F;
+    background-color: none;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.circle1 img
+{
+    margin-top: 50px;
+}
+.userImage
+{
+    float: right;
+    margin-right: 300px;
+}
+
+.icon1 img
+{
+    float: right;
+    margin-top: 150px;
+    width: 20px;
+    height: 48px;
+    margin-right: -75px;
+    
+}
+
+.userGroup
+{
+    float: right;
+}
+
+.money
+{
+    float: right; 
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+.whiteDiv img
+{
+   margin-left: 200px;
+   margin-top: 80px;
+   margin-bottom: 50px;
+   
+}
+.whiteDiv q
+{
+font-family: Lato;
+font-style: italic;
+font-weight: normal;
+font-size: 24px;
+margin-top: 150px;
+letter-spacing: 0.02em;
+float: right;
+color: #000000;
+margin-right: 180px;
+width: 614px;
+height: 75px;
+text-align: justify;
+}
+
+.whiteDiv #p1
+{
+float: right;
+width: 152px;
+height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.02em;
+color: #000000;
+text-transform: uppercase;
+margin-top: -210px;
+margin-right: 640px;
+}
+.whiteDiv #p2
+{
+width: 205px;
+height: 22px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.02em;
+color: #000000;
+margin-top: -180px;
+margin-right: 587px;
+float: right;
+}
+hr
+{
+    width: 17px;
+    height: 2px;
+}
+.whiteDiv ul
+{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.whiteDiv ul li
+{
+    display: inline-flex;
+    float: right;
+    margin-left: -580px;
+    margin-right: 590px;
+    background: rgba(90, 7, 7, 0.4);
+    border-radius: 50px;
+}
+.active, .whiteDiv ul li:hover
+{
+    background: #490F83;
+    border-radius: 50px;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+.blue
+{
+    width: 1440px;
+    height: 184px;
+    background: #490F83;
+    padding: 10px;
+}
+.blue p
+{
+    width: 563px;
+    height: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 170px;
+    margin-left: 150px;
+    color: #FEFEFE;
+}
+.blue .miniDiv
+{
+    width: 170px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    text-align: center;
+    color: #490F83;
+    float: right;
+    margin-right: 220px;
+    margin-top: 20px;
+}
+.blue .miniDiv a
+{
+    text-decoration: none;
+    color: #490F83;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+.black
+{
+    width: 1440px;
+    height: 493px;
+    background: rgba(0, 0, 0, 0.9);
+}
+.black .first
+{
+    background-color: none;
+    width: 211px;
+    color: #FEF2F2;
+    float: right;
+    padding: 10px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-left: 30px; 
+}
+.black .first a
+{
+    text-decoration: none;
+    color: #FEF2F2;
+}
+
+.hr
+{
+    width: 1440px;
+    height: 2px;
+    margin-top: -120px;
+}
+.copy
+{
+    color: white;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+/*-------------------------------------------------------------GLORY BE TO GOD-----------------------------------------------------------*/
